@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Slabo+27px&display=swap");
+body {
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box .container {
+  z-index: 3;
+  -webkit-box-shadow: 15px 10px 10px #3a3939;
+          box-shadow: 15px 10px 10px #3a3939;
+  width: 75%;
+  height: 100%;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+
+.box .container .main {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2888d7), to(#0fecda));
+  background-image: linear-gradient(to right, #2888d7, #0fecda);
+  padding: 5px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  padding-top: 20px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.box .container .main h1 {
+  font-size: 15px;
+  padding-right: 50%;
+  padding-left: 50px;
+}
+
+.box .container .main h4 {
+  font-size: 10px;
+  padding-RIGHT: 2%;
+}
+
+.box .container .bottom {
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  height: 250px;
+}
+
+.top .bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-left: 380px;
+  margin-right: 300px;
+  padding: 2px;
+  padding-left: 2px;
+  z-index: 10;
+  position: relative;
+  margin-top: -525px;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 10px 10px #9e9999;
+          box-shadow: 0 10px 10px #9e9999;
+  height: 450px;
+}
+
+.top .bio .big {
+  position: relative;
+  padding-top: 3%;
+  padding-left: 3px;
+  text-align: canter;
+  margin-right: 0;
+}
+
+.top .bio .small {
+  margin: 30px;
+  padding-right: 5px;
+}
+
+.top .bio .small h5 {
+  opacity: 0.9;
+  font-size: 10px;
+}
+
+.top .bio .small h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top .bio .small h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.top .bio .small p {
+  opacity: 0.8;
+  padding-bottom: 5px;
+  padding-right: 2%;
+  font-size: 10px;
+}
+
+.top .bio .small .contact {
+  font-size: 12px;
+}
+
+.top .bio .small .contact input {
+  height: 18px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.top .bio .small .contact label {
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+.top .bio .small .contact a {
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 480px) {
+  .box .container {
+    width: 100%;
+    margin-right: -50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

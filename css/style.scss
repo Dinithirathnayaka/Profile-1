@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Slabo+27px&display=swap');
+$colorR:RED;
+$colorY:yellow;
+$colorG:rgb(16, 236, 16);
+$colorW:#ffffff;
+$colorA:rgb(218, 214, 214);
+body{
+    padding:0;
+    font-family: 'Noto Serif', serif;
+    
+}
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.box{
+    .container{
+        z-index: 3;
+        box-shadow: 15px 10px 10px rgb(58, 57, 57);
+        width:75%;
+        height: 100%;
+        margin-left:12%;
+        margin-top:2%;
+        
+     
+
+        
+        .main{
+            background-image:linear-gradient(to right,hsl(207, 69%, 50%)  ,#0fecda );
+            padding:5px;
+            height: 400px;
+            display:flex;
+            color: $colorW;
+            padding-top: 20px;
+            font-weight: bold;
+            z-index: 2;
+            
+        
+            h1{
+                font-size: 15px;
+                padding-right: 50%;
+                padding-left: 50px;
+            
+            }
+        
+            h4{
+                font-size: 10px;
+                padding-RIGHT: 2%;
+               
+            }
+           
+        }
+        .bottom{
+            z-index: 2;
+            display:flex;
+            background-color: $colorW;
+            height:250px;
+    
+        }
+    }
+   
+}
+.top{
+   
+    .bio{
+        display:flex;
+        width:50%;
+        margin-left: 380px;
+        margin-right: 300px;
+        padding:2px;
+        padding-left: 2px;
+        z-index:10;
+        position:relative;
+        margin-top:-525px;
+        background-color: $colorW;
+        justify-content: center;
+        box-shadow: 0 10px 10px rgb(158, 153, 153);
+        height: 450px;
+        
+
+       
+        
+
+        .big{
+           
+            
+            position:relative;
+            padding-top:3%;
+            padding-left: 3px;
+            text-align: canter;
+            margin-right: 0;
+
+           
+
+        }
+        .small{
+            margin:30px;
+            padding-right: 5px;
+           
+           
+            h5{
+                opacity:0.9;
+                font-size: 10px;
+            }
+            h1{
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            h4{
+                font-size: 12px;
+                font-weight: bold;
+            }
+            p{
+                opacity:0.8;
+                padding-bottom: 5px;
+                padding-right: 2%;
+                font-size: 10px;
+                
+            }
+            .contact{
+                font-size: 12px;
+                input{
+                    height:18px;
+                    margin-bottom: 3px;
+                    margin-left: 10px;
+                }
+                label{
+                    margin-left: 10px;
+                    margin-bottom: 3px;
+                }
+                a{
+                    margin-left: 10px;
+                    margin-bottom: 3px;
+                }
+
+            }
+
+        }
+
+    }
+}
